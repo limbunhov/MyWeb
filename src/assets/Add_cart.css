@@ -1,0 +1,283 @@
+
+.card_product{
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    gap: .5rem;
+   
+}
+.card_p1{
+    padding: .5rem;
+    width: 13rem;
+    height: 20rem;
+    border-radius: .5rem;
+    background-color: white;
+    box-shadow: 0 6px 10px rgba(75, 73, 73, 0.2);
+    
+}
+.p3{
+    display: flex;
+    height: 8rem;
+    width: 13rem;
+    gap: .1rem;
+    margin-right: 2rem;
+    
+}
+.p1 i{
+    height: 2.1rem;
+    font-size: 1.1rem;
+    padding: .5rem;
+    background-color: rgb(182, 178, 178);
+    border-radius: 50px;
+    border: .1rem solid;
+    color:rgb(16, 16, 16);
+    transition: .3s linear;
+}
+.p1 i:hover{
+    transform: rotate(360Deg);
+    background-color: rgb(248, 244, 244);
+    color: red;
+}
+.p3 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 1rem 0;
+}
+.details{
+    padding-top: .5rem;
+    height: 12rem;
+}
+.details h1{
+    font-size: 1.3rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    padding-bottom: .5rem;
+}
+.details p{
+    font-size: .9rem;
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+}
+.prices{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.prices h1{
+    color: red;
+    font-size: 1.5rem;
+    font-family: 'Roboto', sans-serif;
+}
+.prices span{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    background: #3588f8;
+    padding: .5rem;
+    border-radius: .7rem 0;
+    font-weight: bold;
+    transition: .2s linear;
+}
+.prices:hover span{
+    border-radius:0 .5rem 0 .5rem;
+}
+.not_add_cart{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.not_add_cart p{
+
+    font-size: 2rem;
+    text-align: center;
+}
+
+/* ///////// */
+.daskboard{
+    width:60rem;
+    height: 50rem;
+    background-color: red;
+    border-radius: .5rem;
+    margin-top: .5rem;
+    background-color: rgb(206, 201, 201);
+    padding: .5rem;
+}
+.daskboard .list h5{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: rgb(78, 80, 80);
+    font-family: 'Roboto', sans-serif;
+}
+.list_dask{
+    padding: 0.5rem;
+    height: 44rem;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    overflow-y: scroll; 
+    border-radius: .5rem;
+}
+.list_dask::-webkit-scrollbar {
+    display: none;
+}
+.dask_product{
+    display: flex;
+    gap: 1rem;
+    border-radius: .5rem;
+    align-items: center;
+    background-color: rgb(206, 201, 201);
+    box-shadow: 0 0px 10px rgba(17, 17, 17, 0.2);
+}
+.dask_p1{
+    width: 15rem;
+    height: 9rem;
+}
+.dask_p1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 1rem 0;
+}
+.details_dask{
+    height: 8rem;
+}
+.details_dask h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: black;
+}
+.details_dask p{
+    line-height: 1.8rem;
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(45, 43, 43);
+    width: 13rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis ;
+}
+.details_dask p:nth-child(3){
+    color: red;
+}
+.profile{
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    gap: .2rem;
+}
+.profile .pro_img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1.5rem;
+    height: 1.5rem;
+    border: .1rem solid black;
+    border-radius: 50rem;
+}
+.profile .pro_img i{
+    font-size: 1rem;
+}
+.profile a{
+    color: rgb(59, 58, 58);
+    text-decoration: none;
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+}
+.prices_dask{
+    margin-left: 6rem;
+}
+.prices_dask button{
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+    width: 8rem;
+    height: 2rem;
+    background-color: green;
+    border-radius: .5rem;
+    border: none;
+    color: white;
+}
+.prices_dask button:nth-child(2){
+    background-color: red;
+}
+
+/* ////////// */
+.list_hist{
+    padding: 0.5rem;
+    height: 44rem;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    overflow-y: scroll; 
+    border-radius: .5rem;
+}
+.list_hist::-webkit-scrollbar {
+    display: none;
+}
+
+.or_history{
+    width:60rem;
+    height: 50rem;
+    background-color: red;
+    border-radius: .5rem;
+    margin-top: .5rem;
+    background-color: rgb(206, 201, 201);
+    padding: .5rem;
+}
+.hist_product{
+    padding: .5rem;
+    display: flex;
+    gap: 1rem;
+    border-radius: .5rem;
+    align-items: end;
+    background-color: white;
+}
+.list{
+    margin-bottom: 1rem;
+}
+.hist_p1{
+    width: 15rem;
+    height: 9rem;
+}
+.hist_p1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 1rem 0;
+}.details_hist{
+    height: 9rem;
+}
+.details_hist h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: black;
+}
+.details_hist p{
+    line-height: 1.8rem;
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(45, 43, 43);
+    width: 13rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis ;
+}
+.ord{
+    margin-top: 1rem;
+}
+.ord p{
+    color: red;
+}
+.price{
+    margin-left: 20rem;
+    padding: 1rem;
+}
+.price p{
+    font-size: 1.5rem;
+    font-family:'Roboto', sans-serif ;
+    color: red;
+    font-weight: bold;
+} 

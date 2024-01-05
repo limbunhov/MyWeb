@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;  
+    font-family: 'Roboto', sans-serif;
+}
+
+.logo_page{
+    padding: .5rem 30rem 1rem 3rem;
+    display: flex;
+    justify-content: space-between;
+  }
+  .logo {
+      padding-left: 2.5rem;
+      height: 50%;
+      color: black;
+  }
+  
+  .logo span {
+      color: red;
+  }
+  .logo h1 {
+      font-size: 2rem;
+  }
+  .filter_p{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .Searching{
+    width: 30rem;
+    height: 2.5rem;
+    display: flex;
+    border-radius: .5rem;
+    border: .1rem solid;
+    padding-left: .5rem;
+    margin-top: .2rem;
+  }
+  .Searching input{
+    background-color: rgb(255, 255, 255);
+    width: 27rem;
+    height: 100%;
+    border: none;
+    outline: none;
+    font-size: 1.3rem;
+    font-family: 'Roboto', sans-serif;
+  }
+  .Searching span i{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    font-size: 1.5rem;
+  }
+  .navbar {
+    margin-bottom: 1rem;
+    top: 0;
+    position: sticky;
+    z-index: 5;
+    display: flex;
+    background-color: rgb(187, 185, 185);
+    border-radius: 0 0 .5rem .5rem ;
+    /* box-shadow: 1rem 2rem 5rem rgb(255, 255, 255); */
+    animation: style 5s infinite;
+  }
+  @keyframes style{
+    from { box-shadow: 0rem 0rem 1rem rgb(116, 2, 2);}
+    50% { box-shadow: 0rem 0rem 1rem rgb(110, 1, 123);}
+    to { box-shadow: 0rem 0rem 1rem rgb(6, 159, 164);}
+  }
+  .menu {
+    /* background-color: red; */
+    text-decoration: none;
+    margin-left: 2rem;
+    border: .1rem solid;
+    padding: .3rem;
+    border-radius: .2rem;
+    cursor: pointer;
+  }
+  
+  .menu i {
+    font-size: 1.5rem;
+    margin-right: .5rem;
+  }
+  .menu span {
+    margin-right: 2rem;
+    font-size: 1.5rem;
+    font-family: 'Roboto', sans-serif;
+  }
+  .catagary {
+    height: 100%;
+    padding: 0 3rem 0rem 3rem;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+    display: flex;
+  
+  }
+  
+  .catagary a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .catagary a.router-link-exact-active {
+    padding: 0;
+    margin: 0;
+    border-bottom: .2rem solid white;
+    text-decoration: none;
+  }
+  
+  .information {
+    width: 9rem;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 1rem;
+    gap: 1.5rem;
+  } 
+  .information i {
+    margin: 0;
+    cursor: pointer;
+    font-size: 1.5rem;
+    transition: .2s linear;
+    color: black;
+  }
+  .information i:hover {
+    color: rgb(67, 67, 255);
+    /* transform: scale(1.2); */
+  }
+.card_member{
+  padding: 2rem;
+  background: rgb(142, 141, 141);
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  right: 1rem;
+  top: 4.2rem;
+  border-radius: .5rem;
+}
+.cart_count span{
+  text-align: center;
+  width: 1.5rem;
+  border-radius: 50rem;
+  background-color: red;
+  position: absolute;
+  top: 0;
+  right: 3.5rem;
+  font-size: 1rem;
+  font-weight: bold;
+}
+

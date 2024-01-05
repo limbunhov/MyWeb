@@ -1,0 +1,166 @@
+/*  */
+.full{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    background-color: rgba(79, 78, 77, 0.459);
+}
+
+/*  */
+/* categary_menu_bar */
+.categary_bar {
+    padding: 2rem 0rem 0rem 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    position: absolute;
+    top: 4.1rem;
+    left: 0rem;
+    right: 0;
+    background-color: rgb(197, 194, 194);
+    width: 15rem;
+    height: 20rem;
+    border-radius: 0rem 1rem 1rem 0;
+    transition: .8s ease;
+    
+}
+
+.card_item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.next {
+    transition: .3s ease;
+}
+
+.card_item:hover .next {
+    transition: .4s ease;
+    transform: translate(.5rem);
+}
+.card_item span i {
+    padding-right: 1rem;
+    font-size: 1.5rem;
+    color: black;
+}
+.card_item span {
+    color: black;
+    font-size: 1.2rem;
+}
+.card_item .line_item{
+    position: absolute;
+    top: 2.5rem;
+    left: 0;
+    right: 1rem;
+    height: 100%;
+    width: 100%;
+    border-top: .1rem solid red;
+}
+/*  */
+
+  
+.laptop{
+    border-radius: .2rem;
+    width: 55rem;
+    top: 1.2rem;
+    left: 15.2rem;
+    position: absolute;
+    padding-bottom: 3rem;
+    background-color: rgb(212, 212, 212);
+    visibility: hidden;
+}
+/*  */
+.desktop{
+    border-radius: .2rem;
+    top: 5rem;
+    left: 15.2rem;
+    width: 38rem;
+    position: absolute;
+    padding-bottom: 3rem;
+    background-color: rgb(212, 212, 212);
+    visibility: hidden;
+}
+
+/*  */
+.monitor{
+    border-radius: .2rem;
+    top: 8rem;
+    left: 15.2rem;
+    position: absolute;
+    width: 43rem;
+    background-color: rgb(212, 212, 212);
+    padding-bottom: 4rem;
+    visibility: hidden;
+    
+}
+/*  */
+.Accessories{
+    border-radius: .2rem;
+    top: 11rem;
+    left: 15.2rem;
+    width: 42rem;
+    position: absolute;
+    background-color: rgb(212, 212, 212);
+    padding-bottom: 3rem;
+    visibility: hidden;
+}
+.Chair{
+    border-radius: .2rem;
+    top: 15rem;
+    left: 15.2rem;
+    position: absolute;
+    width: 15rem;
+    background-color: rgb(212, 212, 212);
+    padding-bottom: 3rem;
+    visibility: hidden;
+}
+.main_title h3{ 
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding-top: 0.5rem;
+    padding-bottom: 1rem;
+}
+.list_name_lap4{  
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+}
+.item {
+    position: relative;  
+}
+.item a {
+    text-decoration: none;
+}
+.item a h5{
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+    font-weight: 400;
+
+}
+.item a:hover h5{
+    transition: .4s ease;
+    transform: scale(1.1);
+    color: blue;
+}
+.card_item:hover .laptop{
+    transition: .6s linear;
+    visibility: visible;
+}
+.card_item:hover .desktop{
+    transition: .6s linear;
+    visibility: visible;
+ }
+ .card_item:hover .monitor{
+    visibility: visible;
+    transition: .6s linear;
+ }
+ .card_item:hover .Accessories{
+    visibility: visible;
+    transition: .6s linear;
+ }
+ .card_item:hover .Chair{
+    visibility: visible;
+    transition: .6s linear;
+ }

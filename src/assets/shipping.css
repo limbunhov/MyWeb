@@ -1,0 +1,273 @@
+.line{
+    margin: .5rem 1rem 0 1rem;
+    border-bottom: .1rem solid;
+}
+.list h5{
+    margin-top: 1rem;
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+    line-height: 2rem;
+}
+.clear{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2rem;
+    width: 8rem;
+    height: 3rem;
+    background-color: red;
+    border-radius: .2rem;
+    cursor: pointer;
+}
+.clear span{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    margin: 0;
+}
+.scroll {
+    padding: .5rem;
+    border-radius: .5rem;
+    overflow-y: scroll;
+    height: 30rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.scroll::-webkit-scrollbar {
+    display: none;
+}
+
+.shop_product {
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    flex-direction: column;
+}
+
+.shop_p1 {
+    border-radius: 1rem;
+    padding: .5rem;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0px 10px rgba(75, 73, 73, 0.2);
+}
+.p2{
+    width: 15rem;
+    height: 10rem;
+    padding: .2rem;
+    border-radius: 1rem 0 1rem;
+    background-color: rgb(243, 203, 203);
+}
+.p2 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 1rem 0 1rem;
+
+}
+.details_p1 {
+    width: 20rem;
+    line-height: 1.1rem;
+}
+
+.details_p1 h1 {
+    font-weight: bold;
+    font-size: 1.5rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.details_p1 p {
+    width: 14rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 1.3rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.details_p1 p:nth-child(3) {
+    color: red;
+}
+
+.details_p1 p:nth-child(4) {
+    color: green;
+}
+
+/*  */
+
+.add_remove {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+
+}
+
+.add_remove i {
+    cursor: pointer;
+    padding: .2rem;
+    background-color: red;
+    font-size: 1.5rem;
+    border-radius: .2rem;
+}
+
+.add_remove i:nth-child(3) {
+    background-color: green;
+}
+
+.num_p1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 5rem;
+    height: 2rem;
+    border-radius: .2rem;
+    background-color: rgb(166, 165, 165);
+}
+
+.num_p1 span {
+    font-size: 1.5rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+.prices_p1 {
+    height: 7rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: end;
+    margin-left: 15rem;
+}
+
+.prices_p1 i {
+    height: 2rem;
+    width: 2rem;
+    padding: .5rem;
+    background-color: red;
+    border: .1rem solid black;
+    border-radius: 50rem;
+    transition: .3s linear;
+    cursor: pointer;
+}
+
+.prices_p1 i:hover {
+    transform: rotate(360Deg);
+}
+
+.prices_p1 h1 {
+    color: red;
+    font-family: 'Roboto', sans-serif;
+}
+
+.addTopay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30rem;
+    height: 3rem;
+    background-color: #EF9543;
+    border-radius: .5rem;
+    cursor: pointer;
+    user-select: none;
+}
+
+.addTopay h4 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    margin: 0;
+}
+
+@media (max-width: 768px) {
+    .list h5{
+        font-size: 1.3rem;
+    }
+    .clear{
+        height: 2.5rem;
+        width: 5rem;
+    }
+    .clear span{
+        font-size: 1.1rem;
+    }
+    .scroll {
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        gap: .2rem;
+    }
+
+    .shop_product {
+        margin: 0;
+       
+    }
+
+    .shop_p1 {
+        width: 23rem;
+        height: 5rem;
+        border-radius: .3rem;
+    }
+
+    .p2 {
+        height: 100%;
+        
+    }
+
+    .details_p1 {
+        width: 8rem;
+        margin-left: .2rem;
+    }
+
+    .details_p1 p {
+
+        font-size: .6rem;
+        margin: 0;
+        
+    }
+
+    .add_remove {
+        width: 0rem;
+        margin: 0;
+        
+    }
+
+    .add_remove i {
+        font-size: .7rem;
+        margin: 0;
+    }
+
+    .num_p1 {
+        display: flex;
+        padding: .3rem;
+       
+
+    }
+
+    .num_p1 span {
+        font-size: .7rem;
+
+    }
+
+    .prices_p1 {
+        width: 0;
+        height: 100%;
+        margin-left:10rem;
+        display: flex;
+        gap: .8rem;
+      
+    }
+    .prices_p1 h1{
+        font-size: 1rem;
+    }
+    .addTopay{
+       width: 20rem;
+    }
+    .addTopay h4{
+        font-size: 1.2rem;
+    }
+
+}

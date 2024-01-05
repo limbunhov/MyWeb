@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=PT+Serif:wght@700&family=Roboto+Condensed&display=swap');
+.bord_profile{
+    width: 35rem;
+    height: 38rem;
+    background-color: azure;
+    margin: auto;
+    border-radius: .5rem;
+    box-shadow: 0rem 0rem 1rem rgb(146, 144, 144);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: .5rem;
+    margin-bottom: 1rem;
+}
+.profile_p{
+    width: 15rem;
+    height: 15rem;
+}
+.profile_p img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.detail_pro{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 1rem;
+    width: 100%;
+    height: 18rem;
+    /* background-color: red; */
+}
+.detail_pro h1{
+    height: 4rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding-left: 1rem;
+    border-radius: .5rem;
+    font-size: 1.3rem;
+    font-family: 'Inter', sans-serif;
+    gap: 4rem;
+    box-shadow: 0rem 0rem 1rem rgb(167, 166, 166);
+}
+.detail_pro h1:hover{
+    background-color: antiquewhite;
+}
+.detail_pro h1 span{
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    justify-content: start; 
+    color: rgb(113, 113, 113);  
+}
+@media (max-width: 768px) {
+    .bord_profile{
+        width: 22rem;
+        height: 26rem;
+        margin-top: .5rem;
+        padding: 2rem;
+    }
+    .profile_p{
+        width: 6rem;
+        height: 6rem;
+    }
+    .detail_pro{
+        width: 20rem;
+    }
+    .detail_pro h1{
+        height: 3rem;
+        font-size: 1rem;
+    }
+}

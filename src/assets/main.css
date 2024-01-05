@@ -1,0 +1,20 @@
+@import './list_product.css';
+@import './footer.css';
+@import './Add_cart.css';
+@import './menubar.css';
+@import './contact.css';
+@import './login.css';
+@import './processPay.css';
+@import './AdminPage.css';
+@import './view_product.css';
+@import './favorite.css';
+@import './base.css';
+@import './HeaderPage.css';
+@import './view_profile.css';
+@import './post_product.css';
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto:wght@400;500&display=swap');
+@import '../assets/for_Mobile/Android.css';
+@import './shipping.css';
+@import './homepage.css';
+

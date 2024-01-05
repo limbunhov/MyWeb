@@ -1,0 +1,329 @@
+.board_admin{
+    padding: .5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 20rem;
+    padding-bottom: 2rem;
+}
+.profile_admin{
+    margin: 1rem;
+    padding-right: 2rem;
+    height: 3rem;
+    width: 100%;
+    display: flex;
+    gap: .5rem;
+    justify-content: end;
+    align-items: center;
+}
+.pro_img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50rem;
+    border: .1rem solid black;
+}
+.pro_img i{
+    font-size: 1.2rem;
+}
+.name a{
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: black;
+}
+.filter_pro{
+    border: .1rem solid;
+    display: flex;
+    gap: .5rem;
+    align-items: center;
+    padding: .2rem;
+    width: 40rem;
+    height: 2rem;
+    background-color: white;
+    border-radius: .5rem;
+}
+.filter_pro input{
+    height: 1.5rem;
+    width: 37rem;
+    padding: .6rem;
+    border: none;
+    outline: none;
+    font-size: 1.5rem;
+    font-family: 'Roboto', sans-serif;
+}
+.filter_pro span i{
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+.item_admin{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .5rem;
+    margin: 2rem;
+    height: 3rem;
+    width: 100%;
+}
+.add,.edit, .delete,.see_all{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: .5rem;
+    background-color: rgb(206, 201, 201);
+    box-shadow: 0 0px 10px rgba(17, 17, 17, 0.2);
+    width: 13rem;
+    height:5rem;
+}
+.add,.edit, .delete, .see_all i{
+    font-size: 1.5rem;
+}
+.add h5,.edit h5, .delete h5, .see_all h5{
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+.add span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+}.edit span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+}
+.delete span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+}
+.see_all span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+}
+.add:hover,.edit:hover, .delete:hover,.see_all:hover{
+    background-color:antiquewhite;
+}
+
+/* /////////////// */
+.card_product{
+    padding: 1.2rem;
+    gap: .5rem;
+    width: 100%;
+    height: 50rem;
+    background-color:rgb(192, 187, 187);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    border-radius: .5rem;
+}
+.card_admin{
+    width: 15rem;
+    height: 32rem;
+    padding: .3rem;
+    border-radius: 1rem;
+    background-color: rgb(206, 201, 201);
+    box-shadow: 0 0px 10px rgba(17, 17, 17, 0.2);
+}
+.p1{
+    display: flex;
+    align-items: center;
+    width: 15rem;
+    height: 10rem;
+    margin-bottom: 1rem;
+}
+.p1 img{
+    width: 85%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 1rem 0;
+}
+.p1 .icons{
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    align-items: center;
+    width: 14%;
+}
+.p1 .icons i{
+    padding: .7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1.5rem;
+    height: 1.5rem;
+    border: .1rem solid;
+    font-size: 1rem;
+    border-radius: 50rem;
+    transition: .4s linear;
+}
+.p1 .icons i:hover{
+    color: red;
+    transform: rotate(360Deg);
+}
+.p1 .icons i:hover:nth-child(2){
+    color: green;
+}
+.details{
+    padding-left: .5rem;
+    height: 17rem;
+}
+.details h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: black;
+}
+.details p{
+    line-height: .4rem;
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(45, 43, 43);
+    width: 13rem;
+}
+.warranty{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+.warranty span{
+    padding-right: 2rem;
+    color: red;
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+.warranty span:nth-child(2){
+    color: green;
+}
+.warranty p{
+    line-height: 1.3rem;
+    font-size: 1rem;
+    width: 100%;
+}
+.prices h1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 1.8rem;
+    padding-left: .5rem;
+    color: red;
+}
+
+
+
+/* /////// */
+.card_box{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    padding: 1rem;
+    border-radius: .5rem;
+    width: 100%;
+    background-color: rgb(180, 178, 178);
+}
+.style_card{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    border-radius: .5rem;
+    background-color: rgb(206, 201, 201);
+    box-shadow: 0 0px 10px rgba(17, 17, 17, 0.2);
+}
+.input_infor{
+    padding: 2rem;
+    display: flex;
+    gap: .5rem;
+    border-radius: .5rem;
+    flex-direction: column;
+}
+.input_infor label{
+    line-height: 1.3rem;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.input_infor input{
+    width: 25rem;
+    height: 2rem;
+    outline: none;
+    border: .1rem solid;
+    border-radius: .3rem;
+    padding-left: .5rem;
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+}
+.item label{
+    line-height: 1rem;
+    padding-bottom: .5rem;
+}
+.item div:nth-child(1) input{
+    width: 17rem;
+}
+.item div:nth-child(2) input{
+    width: 7rem;
+}
+.input_infor textarea{
+    width: 25rem;
+    height: 10rem;
+    font-size: 1.2rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+.add_infor{
+    border-radius: .5rem;
+    padding: 2rem;
+    
+}
+.all_img{
+    display: flex;
+    margin-top: 3rem;
+    gap: .5rem;
+    align-items: center;
+    margin-bottom: 10rem;
+}
+.all_img input{
+    display: none;
+}
+.all_img label{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 12rem;
+    height: 12rem;
+    border-radius: .5rem;
+    background-color: rgb(206, 201, 201);
+    box-shadow: 0 0px 10px rgba(17, 17, 17, 0.2);
+
+}
+.two_pic{
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+.two_pic label{
+    width: 8rem;
+    height: 5.8rem;
+}
+.add_infor button{
+    margin-left: 10rem;
+}

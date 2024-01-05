@@ -1,0 +1,50 @@
+.payment-container {
+    max-width: 600px;
+    margin: 0 auto 3rem ;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .payment-header {
+    color: #fffbfb;
+  }
+  
+  .invoice-container, .payment-form-container, .confirmation-container {
+    margin-top: 10px;
+    border: 1px solid #fe0b0b;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .payment-form {
+    display: grid;
+    gap: 10px;
+  }
+  
+  .form-label {
+    margin-bottom: 5px;
+    display: block;
+    font-weight: bold;
+  }
+  
+  .form-input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .submit-button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .confirmation-container {
+    background-color: #4caf4fa5;
+    
+    color: #3c763d;
+  }
