@@ -9,7 +9,7 @@ import register_form from '../components/login&register/register_form.vue';
 import adminpage from '../components/AdminPage/Admin.vue';
 import processPay from '../components/processPay.vue';
 import invoice from '../components/invoice.vue';
-import listProduct from '../components/AdminPage/Crudpage/seeallproduct.vue';
+import listProduct from '../components/AdminPage/crudpage/seeallproduct.vue';
 import orderHistory from '../components/orderHistory.vue';
 import favorite from '../components/Favorite.vue'
 import viewProfile from '../components/ViewProfile.vue'
